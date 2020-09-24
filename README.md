@@ -1,8 +1,9 @@
 # PDFTron React and React Native PDF Viewer Sample
 
-[!demo](./demo.jpg)
-
 This sample project uses Expo and shows how to create a PDF viewer app for both web and mobile with a single codebase between React and React Native.
+
+
+![demo](./demo.jpg)
 
 ## Install
 
