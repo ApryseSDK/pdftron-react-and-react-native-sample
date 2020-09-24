@@ -3,7 +3,11 @@ import {useEffect} from 'react';
 
 import { DocumentView, RNPdftron } from 'react-native-pdftron';
 
-const MyComponent = () => {
+type ViewerProps = {
+  document: string
+}
+
+const MyComponent = ({ document }: ViewerProps) => {
 
   useEffect(() => {
     RNPdftron.initialize("Insert commercial license key here after purchase");
@@ -11,7 +15,7 @@ const MyComponent = () => {
 
   return (
     <DocumentView
-      document={"https://pdftron.s3.amazonaws.com/downloads/pl/PDFTRON_about.pdf"}
+      document={document}
       padStatusBar
     />
   );

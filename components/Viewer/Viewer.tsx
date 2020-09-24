@@ -2,14 +2,18 @@ import React from 'react';
 import {useEffect, useRef} from 'react';
 import WebViewer from '@pdftron/webviewer';
 
-const MyComponent = () => {
+type ViewerProps = {
+  document: string
+}
+
+const MyComponent = ({ document }: ViewerProps) => {
   const viewer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     WebViewer(
       {
         path: 'lib',
-        initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/PDFTRON_about.pdf',
+        initialDoc: document,
       },
       viewer.current as HTMLDivElement,
     ).then((instance) => {

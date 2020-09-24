@@ -6,7 +6,7 @@ import MyViewer from './components/Viewer';
 export default function App() {
   return (
     <View style={styles.container}>
-      <MyViewer />
+      <MyViewer document={"https://pdftron.s3.amazonaws.com/downloads/pl/PDFTRON_about.pdf"}/>
     </View>
   );
 }
