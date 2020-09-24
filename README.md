@@ -19,7 +19,7 @@ npm run web
 
 ### iOS
 
-1. Install pop 
+1. Install dependencies
 
 ```
 cd ios
@@ -47,3 +47,18 @@ sdk.dir=/Users/pdftron/Library/Android/sdk
 ```
 npm run android
 ```
+
+## Guides
+
+- https://www.pdftron.com/documentation/web
+- https://www.pdftron.com/documentation/ios
+- https://www.pdftron.com/documentation/android
+
+## Contributing
+
+See [contributing](./CONTRIBUTING.md).
+
+## License
+
+See [license](./LICENSE).
+![](https://onepixel.pdftron.com/pdftron-react-and-react-native-sample)
