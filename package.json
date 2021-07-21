@@ -8,7 +8,7 @@
     "postinstall": "node tools/copy-webviewer-files.js"
   },
   "dependencies": {
-    "@pdftron/webviewer": "^7.1.0",
+    "@pdftron/webviewer": "^8.0.0",
     "expo": "~39.0.2",
     "expo-splash-screen": "~0.6.0",
     "expo-status-bar": "~1.0.2",
